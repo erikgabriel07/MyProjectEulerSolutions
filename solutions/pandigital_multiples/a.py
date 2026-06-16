@@ -27,7 +27,7 @@ def solve():
     
     for p in perm:
         if int(p[:4]) * 2 == int(p[4:]):
-            print(p)
+            return p
 
 if __name__ == "__main__":
     answer = solve()
